@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css">
+ <script src="script.js" defer></script>
+ <title>How to build length converter using javascript</title>
+</head>
+<body>
+ <div class="container">
+  <div class="center-width">
+   <h2>Length Converter</h2>
+   <p>Type value in any of the fields to convert between Length measurements:</p>
+  </div>
+  <div class="length-converter">
+   <div class="fields">
+    <div class="field">
+     <label for="">CM: </label>
+     <input type="number" placeholder="cm" id="inputcm" oninput="lenthConverter(this.id, this.value)" onchange="lengthConverter(this.id, this.value)">
+    </div>
+    <div class="field">
+     <label for="">Inches: </label>
+     <input type="number" placeholder="Inches" id="inputInches" oninput="lenthConverter()" onchange="lengthConverter(this.id, this.value)">
+    </div>
+    <div class="field">
+     <label for="">Feet: </label>
+     <input type="number" placeholder="Feet" id="inputFeet" oninput="lenthConverter(this.id, this.value)" onchange="lengthConverter(this.id, this.value)">
+    </div>
+    <div class="field">
+     <label for="">Meters: </label>
+     <input type="number" placeholder="Meters" id="inputMeters" oninput="lenthConverter()" onchange="lengthConverter(this.id, this.value)">
+    </div>
+    <div class="field">
+     <label for="">Kilometers: </label>
+     <input type="number" placeholder="Kilometers" id="inputKilometers" oninput="lenthConverter(this.id, this.value)" onchange="lengthConverter(this.id, this.value)">
+    </div>
+    <div class="field">
+     <label for="">Miles: </label>
+     <input type="number" placeholder="Miles" id="inputMiles" oninput="lenthConverter()" onchange="lengthConverter(this.id, this.value)">
+    </div>
+    <div class="field">
+     <label for="">Yards: </label>
+     <input type="number" placeholder="Yards" id="inputYards" oninput="lenthConverter()" onchange="lengthConverter(this.id, this.value)">
+    </div>
+   </div>
+  </div>
+ </div>
+</body>
+</html>
